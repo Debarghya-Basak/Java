@@ -31,7 +31,7 @@ public class Main {
 
         List<Product> searchByName = service.getProduct(name);
         for(Product p : searchByName)
-            System.out.println(searchByName);
+            System.out.println(p);
         
 
         //Searching with text
